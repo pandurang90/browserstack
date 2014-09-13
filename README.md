@@ -21,8 +21,8 @@ Or install it yourself as:
 	require "browserstack"
 	Browserstack.configure do |config|
 	  config.api_version="3"
-	  config.user_name = "pandurang@idyllic-software.com"
-	  config.password = "081407515p"
+	  config.user_name = "user_name"
+	  config.password = "pwd"
 	end
 	
 	browsers = Browserstack::Browser.get_browsers
